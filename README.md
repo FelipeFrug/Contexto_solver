@@ -1,8 +1,7 @@
 # Contexto_solver
 
 Feito por:
-Felipe Frug
-Albert Hamoui
+Felipe Frug & Albert Hamoui
 
 Este projeto tem como objetivo desenvolver um programa capaz de resolver o jogo [Contexto](https://contexto.me) utilizando conhecimentos adquiridos no curso de Processamento de Linguagem Natural.
 
