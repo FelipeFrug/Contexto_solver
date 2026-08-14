@@ -1,2 +1,4 @@
 embeddingsValues.npz
 .claude/
+__pycache__/
+embeddingsValues.npz
