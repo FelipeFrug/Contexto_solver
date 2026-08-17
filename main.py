@@ -260,21 +260,20 @@ def loop_automatico():
 		elif perfeitos_depois > perfeitos_antes:
 			n_sugestoes = 10
 
-listaPalavras = []
-
-if len(listaPalavras) == 0:
-    print("Nenhuma palavra foi passada para o loop automático.") 
-    for palavra in listaPalavras:
-        adicionar_chute_site(palavra)
-        print(f"Enviando chute manual: {palavra}")
-else:
-    print("Iniciando jogo")
+# Logica para adicionar chutes manuais antes de iniciar o loop automático
+# listaPalavras = []
+# if len(listaPalavras) == 0:
+#     print("Nenhuma palavra foi passada para o loop automático.") 
+#     for palavra in listaPalavras:
+#         adicionar_chute_site(palavra)
+#         print(f"Enviando chute manual: {palavra}")
+# else:
+#     print("Iniciando jogo")
 try:
 	loop_automatico()
 
 except NoSuchElementException:
 	clear_output(wait=False)
 	print("\n[ERRO] Não foi possível encontrar o campo de input do jogo.")
-	print("Provavelmente você ainda NÃO está na tela do jogo.")
 	print("\n→ Entre na partida manualmente no navegador (onde aparece o campo de digitar palavra)")
 	print("→ Depois execute o script novamente.\n")
