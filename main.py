@@ -37,12 +37,40 @@ model = BertModel.from_pretrained("bert-base-uncased")
 model.eval()
 print("BERT Carregado com sucesso!")
 
+
+def encode_words(words):
+	"""Embedding de cada palavra via mean pooling apenas sobre os tokens reais.
+
+	[PAD] fica de fora (senao o vetor dependeria do tamanho da maior palavra
+	do batch) e [CLS]/[SEP] tambem (num input de 1 palavra eles dominariam a
+	media). Assim o vetor de uma palavra e o mesmo em batch ou sozinha.
+	"""
+	inputs = tokenizer(
+		words,
+		return_tensors="pt",
+		truncation=True,
+		padding=True,
+		return_special_tokens_mask=True,
+	)
+	special_mask = inputs.pop("special_tokens_mask")
+
+	with torch.no_grad():
+		outputs = model(**inputs)
+
+	# tokens reais = atendidos pela attention e nao especiais
+	pool_mask = (inputs["attention_mask"] * (1 - special_mask)).unsqueeze(-1).float()
+	soma = (outputs.last_hidden_state * pool_mask).sum(dim=1)
+	qtd = pool_mask.sum(dim=1).clamp(min=1e-9)
+	return (soma / qtd).numpy()
+
+
 # Embeddings cache
 embeddings = {}
 memory = {}
 
 # Pre-computa embeddings ou carrega do arquivo se ja existir
-EMBEDDINGS_FILE = "embeddingsValues.npz"
+# _v2: o arquivo antigo foi gerado com pooling sobre [PAD]/[CLS]/[SEP] e e invalido
+EMBEDDINGS_FILE = "embeddingsValues_v2.npz"
 
 if os.path.exists(EMBEDDINGS_FILE):
 	print("Arquivo de embeddings encontrado.")
@@ -73,10 +101,7 @@ else:
 
 	for i in range(0, len(todos_candidatos), batch_size):
 		batch = todos_candidatos[i:i + batch_size]
-		with torch.no_grad():
-			inputs = tokenizer(batch, return_tensors="pt", truncation=True, padding=True)
-			outputs = model(**inputs)
-			embs = outputs.last_hidden_state.mean(dim=1).numpy()
+		embs = encode_words(batch)
 		for j, word in enumerate(batch):
 			candidatos_lista.append(word)
 			matriz_candidatos.append(embs[j])
@@ -111,13 +136,9 @@ def get_embedding(word):
 	if word in embeddings:
 		return embeddings[word]
 
-	with torch.no_grad():
-		inputs = tokenizer(word, return_tensors="pt", truncation=True)
-		inputs = {k: v for k, v in inputs.items()}
-		outputs = model(**inputs)
-		emb = outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
-		embeddings[word] = emb
-		return emb
+	emb = encode_words([word])[0]
+	embeddings[word] = emb
+	return emb
 
 # Adiciona chute manual
 def adicionar_chute(palavra, score):
