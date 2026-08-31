@@ -1,0 +1,1854 @@
+{
+ "jogos": [
+  {
+   "id": "2026-08-24",
+   "inicio": "2026-08-24T10:28:14",
+   "chutes": [
+    {
+     "n": 1,
+     "palavra": "place",
+     "rank": 550,
+     "estrategia": "tema"
+    },
+    {
+     "n": 2,
+     "palavra": "family",
+     "rank": 3859,
+     "estrategia": "tema"
+    },
+    {
+     "n": 3,
+     "palavra": "profession",
+     "rank": 17149,
+     "estrategia": "tema"
+    },
+    {
+     "n": 4,
+     "palavra": "color",
+     "rank": 3867,
+     "estrategia": "tema"
+    },
+    {
+     "n": 5,
+     "palavra": "status",
+     "rank": 19011,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 6,
+     "palavra": "game",
+     "rank": 13234,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 7,
+     "palavra": "high",
+     "rank": 1047,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 8,
+     "palavra": "first",
+     "rank": 3692,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 9,
+     "palavra": "high",
+     "rank": 1047,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 10,
+     "palavra": "stand",
+     "rank": 468,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 11,
+     "palavra": "bow",
+     "rank": 4979,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 12,
+     "palavra": "flinch",
+     "rank": 46387,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 13,
+     "palavra": "shove",
+     "rank": 5348,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 14,
+     "palavra": "rising",
+     "rank": 1148,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 15,
+     "palavra": "ahead",
+     "rank": 2955,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 16,
+     "palavra": "remember",
+     "rank": 9579,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 17,
+     "palavra": "cheer",
+     "rank": 7602,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 18,
+     "palavra": "quickly",
+     "rank": 2426,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 19,
+     "palavra": "climb",
+     "rank": 300,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 20,
+     "palavra": "forward",
+     "rank": 3523,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 21,
+     "palavra": "closer",
+     "rank": 3464,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 22,
+     "palavra": "stair",
+     "rank": 34,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 23,
+     "palavra": "ascent",
+     "rank": 5689,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 24,
+     "palavra": "accelerate",
+     "rank": 11151,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 25,
+     "palavra": "upward",
+     "rank": 1387,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 26,
+     "palavra": "step",
+     "rank": 823,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 27,
+     "palavra": "kneel",
+     "rank": 10311,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 28,
+     "palavra": "stairwell",
+     "rank": 170,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 29,
+     "palavra": "stairway",
+     "rank": 61,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 30,
+     "palavra": "staircase",
+     "rank": 32,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 31,
+     "palavra": "ascend",
+     "rank": 2364,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 32,
+     "palavra": "raise",
+     "rank": 1340,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 33,
+     "palavra": "ledge",
+     "rank": 351,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 34,
+     "palavra": "near",
+     "rank": 576,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 35,
+     "palavra": "bulky",
+     "rank": 2214,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 36,
+     "palavra": "frequent",
+     "rank": 5049,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 37,
+     "palavra": "reach",
+     "rank": 1978,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 38,
+     "palavra": "lower",
+     "rank": 1882,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 39,
+     "palavra": "aisle",
+     "rank": 3846,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 40,
+     "palavra": "descend",
+     "rank": 695,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 41,
+     "palavra": "creak",
+     "rank": 2542,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 42,
+     "palavra": "leap",
+     "rank": 2697,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 43,
+     "palavra": "attain",
+     "rank": 26650,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 44,
+     "palavra": "doorway",
+     "rank": 90,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 45,
+     "palavra": "foyer",
+     "rank": 785,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 46,
+     "palavra": "arch",
+     "rank": 123,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 47,
+     "palavra": "terrace",
+     "rank": 332,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 48,
+     "palavra": "basilica",
+     "rank": 1642,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 49,
+     "palavra": "parlor",
+     "rank": 2191,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 50,
+     "palavra": "pilasters",
+     "rank": 1598,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 51,
+     "palavra": "ladder",
+     "rank": 146,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 52,
+     "palavra": "verandah",
+     "rank": 1414,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 53,
+     "palavra": "cellar",
+     "rank": 154,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 54,
+     "palavra": "archway",
+     "rank": 261,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 55,
+     "palavra": "attic",
+     "rank": 15,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 56,
+     "palavra": "basement",
+     "rank": 49,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 57,
+     "palavra": "downstairs",
+     "rank": 1105,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 58,
+     "palavra": "apartment",
+     "rank": 746,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 59,
+     "palavra": "cottage",
+     "rank": 311,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 60,
+     "palavra": "rooftop",
+     "rank": 117,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 61,
+     "palavra": "backyard",
+     "rank": 616,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 62,
+     "palavra": "ceiling",
+     "rank": 16,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 63,
+     "palavra": "elevator",
+     "rank": 257,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 64,
+     "palavra": "ceiling",
+     "rank": 16,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 65,
+     "palavra": "upstairs",
+     "rank": 594,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 66,
+     "palavra": "candle",
+     "rank": 411,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 67,
+     "palavra": "bedroom",
+     "rank": 788,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 68,
+     "palavra": "penthouse",
+     "rank": 3949,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 69,
+     "palavra": "balcony",
+     "rank": 82,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 70,
+     "palavra": "microwave",
+     "rank": 824,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 71,
+     "palavra": "window",
+     "rank": 96,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 72,
+     "palavra": "scribe",
+     "rank": 38705,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 73,
+     "palavra": "tower",
+     "rank": 62,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 74,
+     "palavra": "furnace",
+     "rank": 9,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 75,
+     "palavra": "chimney",
+     "rank": 1,
+     "estrategia": "consistencia"
+    }
+   ],
+   "invalidos": 1,
+   "repetidos": 0,
+   "resolvido": true,
+   "palavra": "chimney"
+  },
+  {
+   "id": "2026-08-26",
+   "inicio": "2026-08-26T15:49:36",
+   "chutes": [
+    {
+     "n": 1,
+     "palavra": "clothes",
+     "rank": 366,
+     "estrategia": "tema"
+    },
+    {
+     "n": 2,
+     "palavra": "towel",
+     "rank": 365,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 3,
+     "palavra": "bandage",
+     "rank": 2527,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 4,
+     "palavra": "outfit",
+     "rank": 2897,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 5,
+     "palavra": "grocery",
+     "rank": 4236,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 6,
+     "palavra": "shoe",
+     "rank": 740,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 7,
+     "palavra": "glove",
+     "rank": 631,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 8,
+     "palavra": "garment",
+     "rank": 376,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 9,
+     "palavra": "possession",
+     "rank": 6213,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 10,
+     "palavra": "sneaker",
+     "rank": 4123,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 11,
+     "palavra": "jeans",
+     "rank": 2841,
+     "estrategia": "centroide"
+    },
+    {
+     "n": 12,
+     "palavra": "civilian",
+     "rank": 4137,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 13,
+     "palavra": "diary",
+     "rank": 4996,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 14,
+     "palavra": "heel",
+     "rank": 3024,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 15,
+     "palavra": "sock",
+     "rank": 1592,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 16,
+     "palavra": "cigarette",
+     "rank": 3986,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 17,
+     "palavra": "trouser",
+     "rank": 2830,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 18,
+     "palavra": "shirt",
+     "rank": 615,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 19,
+     "palavra": "glass",
+     "rank": 138,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 20,
+     "palavra": "cooler",
+     "rank": 2672,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 21,
+     "palavra": "mirror",
+     "rank": 680,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 22,
+     "palavra": "house",
+     "rank": 639,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 23,
+     "palavra": "tube",
+     "rank": 754,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 24,
+     "palavra": "score",
+     "rank": 3730,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 25,
+     "palavra": "stand",
+     "rank": 185,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 26,
+     "palavra": "stone",
+     "rank": 1101,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 27,
+     "palavra": "table",
+     "rank": 411,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 28,
+     "palavra": "beam",
+     "rank": 3706,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 29,
+     "palavra": "water",
+     "rank": 86,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 30,
+     "palavra": "rock",
+     "rank": 825,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 31,
+     "palavra": "wave",
+     "rank": 1528,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 32,
+     "palavra": "picture",
+     "rank": 297,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 33,
+     "palavra": "light",
+     "rank": 187,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 34,
+     "palavra": "word",
+     "rank": 1726,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 35,
+     "palavra": "flame",
+     "rank": 2209,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 36,
+     "palavra": "image",
+     "rank": 455,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 37,
+     "palavra": "wall",
+     "rank": 11,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 38,
+     "palavra": "noise",
+     "rank": 2645,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 39,
+     "palavra": "cliff",
+     "rank": 3979,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 40,
+     "palavra": "kitchen",
+     "rank": 1991,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 41,
+     "palavra": "door",
+     "rank": 310,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 42,
+     "palavra": "graffito",
+     "rank": 2362,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 43,
+     "palavra": "concrete",
+     "rank": 210,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 44,
+     "palavra": "balcony",
+     "rank": 4396,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 45,
+     "palavra": "flashlight",
+     "rank": 4426,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 46,
+     "palavra": "outside",
+     "rank": 62,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 47,
+     "palavra": "courtyard",
+     "rank": 5790,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 48,
+     "palavra": "alone",
+     "rank": 584,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 49,
+     "palavra": "ruin",
+     "rank": 3475,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 50,
+     "palavra": "sound",
+     "rank": 1924,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 51,
+     "palavra": "memory",
+     "rank": 2251,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 52,
+     "palavra": "change",
+     "rank": 546,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 53,
+     "palavra": "button",
+     "rank": 1604,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 54,
+     "palavra": "shape",
+     "rank": 315,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 55,
+     "palavra": "sidewalk",
+     "rank": 1987,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 56,
+     "palavra": "space",
+     "rank": 850,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 57,
+     "palavra": "screen",
+     "rank": 157,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 58,
+     "palavra": "paint",
+     "rank": 38,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 59,
+     "palavra": "color",
+     "rank": 255,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 60,
+     "palavra": "voice",
+     "rank": 3711,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 61,
+     "palavra": "photo",
+     "rank": 647,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 62,
+     "palavra": "square",
+     "rank": 462,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 63,
+     "palavra": "panel",
+     "rank": 18,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 64,
+     "palavra": "reality",
+     "rank": 2696,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 65,
+     "palavra": "floor",
+     "rank": 134,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 66,
+     "palavra": "plaster",
+     "rank": 1617,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 67,
+     "palavra": "photograph",
+     "rank": 1249,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 68,
+     "palavra": "exterior",
+     "rank": 137,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 69,
+     "palavra": "building",
+     "rank": 359,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 70,
+     "palavra": "canvas",
+     "rank": 2,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 71,
+     "palavra": "symbolism",
+     "rank": 10246,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 72,
+     "palavra": "landscape",
+     "rank": 529,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 73,
+     "palavra": "print",
+     "rank": 33,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 74,
+     "palavra": "sculpture",
+     "rank": 1727,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 75,
+     "palavra": "paper",
+     "rank": 9,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 76,
+     "palavra": "artwork",
+     "rank": 679,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 77,
+     "palavra": "mural",
+     "rank": 1369,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 78,
+     "palavra": "porcelain",
+     "rank": 3098,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 79,
+     "palavra": "painter",
+     "rank": 3086,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 80,
+     "palavra": "installation",
+     "rank": 421,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 81,
+     "palavra": "imagery",
+     "rank": 5706,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 82,
+     "palavra": "installation",
+     "rank": 421,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 83,
+     "palavra": "drawing",
+     "rank": 296,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 84,
+     "palavra": "mosaic",
+     "rank": 1896,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 85,
+     "palavra": "drawing",
+     "rank": 296,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 86,
+     "palavra": "alteration",
+     "rank": 7060,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 87,
+     "palavra": "fabric",
+     "rank": 8,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 88,
+     "palavra": "visual",
+     "rank": 2639,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 89,
+     "palavra": "classroom",
+     "rank": 2828,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 90,
+     "palavra": "commission",
+     "rank": 2383,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 91,
+     "palavra": "depict",
+     "rank": 3611,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 92,
+     "palavra": "color",
+     "rank": 255,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 93,
+     "palavra": "portrait",
+     "rank": 1642,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 94,
+     "palavra": "charcoal",
+     "rank": 1471,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 95,
+     "palavra": "material",
+     "rank": 10,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 96,
+     "palavra": "abstraction",
+     "rank": 6712,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 97,
+     "palavra": "tapestry",
+     "rank": 1437,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 98,
+     "palavra": "text",
+     "rank": 1052,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 99,
+     "palavra": "poster",
+     "rank": 262,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 100,
+     "palavra": "furnish",
+     "rank": 4253,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 101,
+     "palavra": "presentation",
+     "rank": 743,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 102,
+     "palavra": "unfinished",
+     "rank": 2143,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 103,
+     "palavra": "design",
+     "rank": 131,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 104,
+     "palavra": "background",
+     "rank": 129,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 105,
+     "palavra": "theater",
+     "rank": 3723,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 106,
+     "palavra": "objection",
+     "rank": 14696,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 107,
+     "palavra": "album",
+     "rank": 1527,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 108,
+     "palavra": "engraving",
+     "rank": 4166,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 109,
+     "palavra": "perspective",
+     "rank": 1864,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 110,
+     "palavra": "fresco",
+     "rank": 9581,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 111,
+     "palavra": "textile",
+     "rank": 518,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 112,
+     "palavra": "enamel",
+     "rank": 3096,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 113,
+     "palavra": "work",
+     "rank": 101,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 114,
+     "palavra": "card",
+     "rank": 676,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 115,
+     "palavra": "system",
+     "rank": 537,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 116,
+     "palavra": "field",
+     "rank": 330,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 117,
+     "palavra": "competition",
+     "rank": 2316,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 118,
+     "palavra": "concept",
+     "rank": 1349,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 119,
+     "palavra": "composition",
+     "rank": 520,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 120,
+     "palavra": "sketch",
+     "rank": 2272,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 121,
+     "palavra": "music",
+     "rank": 1612,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 122,
+     "palavra": "letter",
+     "rank": 820,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 123,
+     "palavra": "modernism",
+     "rank": 19741,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 124,
+     "palavra": "architecture",
+     "rank": 3038,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 125,
+     "palavra": "document",
+     "rank": 382,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 126,
+     "palavra": "game",
+     "rank": 3002,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 127,
+     "palavra": "sleep",
+     "rank": 935,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 128,
+     "palavra": "cover",
+     "rank": 7,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 129,
+     "palavra": "parchment",
+     "rank": 775,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 130,
+     "palavra": "string",
+     "rank": 1456,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 131,
+     "palavra": "illustration",
+     "rank": 1232,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 132,
+     "palavra": "stack",
+     "rank": 800,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 133,
+     "palavra": "studio",
+     "rank": 2225,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 134,
+     "palavra": "script",
+     "rank": 3406,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 135,
+     "palavra": "narrative",
+     "rank": 4474,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 136,
+     "palavra": "line",
+     "rank": 61,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 137,
+     "palavra": "supply",
+     "rank": 282,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 138,
+     "palavra": "display",
+     "rank": 890,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 139,
+     "palavra": "printer",
+     "rank": 2216,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 140,
+     "palavra": "department",
+     "rank": 1120,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 141,
+     "palavra": "untitled",
+     "rank": 5434,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 142,
+     "palavra": "palette",
+     "rank": 2096,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 143,
+     "palavra": "frame",
+     "rank": 16,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 144,
+     "palavra": "vessel",
+     "rank": 2891,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 145,
+     "palavra": "metal",
+     "rank": 59,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 146,
+     "palavra": "black",
+     "rank": 272,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 147,
+     "palavra": "construction",
+     "rank": 28,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 148,
+     "palavra": "pencil",
+     "rank": 802,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 149,
+     "palavra": "blur",
+     "rank": 5713,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 150,
+     "palavra": "mask",
+     "rank": 1140,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 151,
+     "palavra": "blind",
+     "rank": 1699,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 152,
+     "palavra": "ceramic",
+     "rank": 2111,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 153,
+     "palavra": "plate",
+     "rank": 213,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 154,
+     "palavra": "bamboo",
+     "rank": 489,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 155,
+     "palavra": "gender",
+     "rank": 6008,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 156,
+     "palavra": "linen",
+     "rank": 199,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 157,
+     "palavra": "jacket",
+     "rank": 230,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 158,
+     "palavra": "lens",
+     "rank": 1288,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 159,
+     "palavra": "land",
+     "rank": 669,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 160,
+     "palavra": "sheet",
+     "rank": 4,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 161,
+     "palavra": "holding",
+     "rank": 110,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 162,
+     "palavra": "layer",
+     "rank": 102,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 163,
+     "palavra": "reading",
+     "rank": 1711,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 164,
+     "palavra": "plastic",
+     "rank": 5,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 165,
+     "palavra": "cutting",
+     "rank": 164,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 166,
+     "palavra": "impression",
+     "rank": 1583,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 167,
+     "palavra": "plan",
+     "rank": 418,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 168,
+     "palavra": "cardboard",
+     "rank": 45,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 169,
+     "palavra": "piece",
+     "rank": 12,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 170,
+     "palavra": "larkin",
+     "rank": 29895,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 171,
+     "palavra": "balloon",
+     "rank": 1546,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 172,
+     "palavra": "ceiling",
+     "rank": 420,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 173,
+     "palavra": "atmosphere",
+     "rank": 5073,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 174,
+     "palavra": "chalk",
+     "rank": 1771,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 175,
+     "palavra": "titanium",
+     "rank": 5046,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 176,
+     "palavra": "envelope",
+     "rank": 298,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 177,
+     "palavra": "pile",
+     "rank": 212,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 178,
+     "palavra": "quilt",
+     "rank": 436,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 179,
+     "palavra": "curtain",
+     "rank": 119,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 180,
+     "palavra": "laundry",
+     "rank": 2065,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 181,
+     "palavra": "setup",
+     "rank": 2194,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 182,
+     "palavra": "request",
+     "rank": 1408,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 183,
+     "palavra": "rack",
+     "rank": 394,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 184,
+     "palavra": "bedroom",
+     "rank": 2951,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 185,
+     "palavra": "resin",
+     "rank": 499,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 186,
+     "palavra": "movement",
+     "rank": 2072,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 187,
+     "palavra": "demand",
+     "rank": 1099,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 188,
+     "palavra": "distort",
+     "rank": 7198,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 189,
+     "palavra": "imagination",
+     "rank": 6503,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 190,
+     "palavra": "pillar",
+     "rank": 2185,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 191,
+     "palavra": "carving",
+     "rank": 6278,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 192,
+     "palavra": "craft",
+     "rank": 1063,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 193,
+     "palavra": "hang",
+     "rank": 87,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 194,
+     "palavra": "bead",
+     "rank": 2725,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 195,
+     "palavra": "hang",
+     "rank": 87,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 196,
+     "palavra": "message",
+     "rank": 2602,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 197,
+     "palavra": "signature",
+     "rank": 1064,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 198,
+     "palavra": "cloud",
+     "rank": 1178,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 199,
+     "palavra": "dry",
+     "rank": 351,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 200,
+     "palavra": "blanket",
+     "rank": 34,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 201,
+     "palavra": "capture",
+     "rank": 3023,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 202,
+     "palavra": "umbrella",
+     "rank": 35,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 203,
+     "palavra": "scissors",
+     "rank": 3972,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 204,
+     "palavra": "board",
+     "rank": 397,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 205,
+     "palavra": "moisture",
+     "rank": 1365,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 206,
+     "palavra": "rubble",
+     "rank": 6451,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 207,
+     "palavra": "price",
+     "rank": 993,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 208,
+     "palavra": "coat",
+     "rank": 36,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 209,
+     "palavra": "glaze",
+     "rank": 3421,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 210,
+     "palavra": "berwick",
+     "rank": 13980,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 211,
+     "palavra": "permanent",
+     "rank": 606,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 212,
+     "palavra": "textbook",
+     "rank": 5103,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 213,
+     "palavra": "kunst",
+     "rank": 21172,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 214,
+     "palavra": "white",
+     "rank": 125,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 215,
+     "palavra": "steel",
+     "rank": 168,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 216,
+     "palavra": "desert",
+     "rank": 1653,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 217,
+     "palavra": "lavender",
+     "rank": 4720,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 218,
+     "palavra": "coral",
+     "rank": 3718,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 219,
+     "palavra": "cancel",
+     "rank": 5426,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 220,
+     "palavra": "skin",
+     "rank": 834,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 221,
+     "palavra": "routine",
+     "rank": 3056,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 222,
+     "palavra": "bottle",
+     "rank": 983,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 223,
+     "palavra": "cushion",
+     "rank": 345,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 224,
+     "palavra": "fiber",
+     "rank": 1028,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 225,
+     "palavra": "straw",
+     "rank": 803,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 226,
+     "palavra": "shed",
+     "rank": 586,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 227,
+     "palavra": "tissue",
+     "rank": 1661,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 228,
+     "palavra": "doorway",
+     "rank": 5065,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 229,
+     "palavra": "strap",
+     "rank": 505,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 230,
+     "palavra": "pocket",
+     "rank": 352,
+     "estrategia": "consistencia"
+    }
+   ],
+   "invalidos": 0,
+   "repetidos": 0,
+   "resolvido": false,
+   "palavra": null
+  }
+ ]
+}

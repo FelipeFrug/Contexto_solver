@@ -1,30 +1,77 @@
+print("Importando 0/17")
 import os
+print("Importando 1/17")
 import torch
+print("Importando 2/17")
 import random
+print("Importando 3/17")
 import numpy as np
+print("Importando 4/17")
+import dashboard
+print("Importando 5/17")
+from datetime import date
+print("Importando 6/17")
 from selenium import webdriver
+print("Importando 7/17")
 from nltk.stem import PorterStemmer
+print("Importando 8/17")
 from IPython.display import clear_output
+print("Importando 9/17")
 from selenium.webdriver.common.by import By
+print("Importando 10/17")
 from selenium.webdriver.common.keys import Keys
+print("Importando 11/17")
 from transformers import BertTokenizer, BertModel
+print("Importando 12/17")
 from selenium.webdriver.chrome.service import Service
+print("Importando 13/17")
 from selenium.webdriver.support.ui import WebDriverWait
+print("Importando 14/17")
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.common.exceptions import NoSuchElementException
+print("Importando 15/17")
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+print("Importando 16/17")
 from selenium.webdriver.support import expected_conditions as EC
+print("Importando 17/17")
+
+print("Iniciando")
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 driver.get("https://contexto.me/en/")
 
+print("Driver")
+
 wait = WebDriverWait(driver, 20)
 
-play_link = wait.until(
-    EC.element_to_be_clickable((By.CSS_SELECTOR, "a[href='/en/daily']"))
-)
-play_link.click()
+print("Driver 2.0")
 
-wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.word")))
+def abrir_partida_diaria():
+    """Entra na partida do dia.
+
+    O /en/daily so existe via SPA (acessar a URL direto redireciona pra home) e o
+    iframe de anuncio do Google costuma cobrir o link, o que faz o clique nativo
+    estourar ElementClickInterceptedException. O clique via JS ignora o overlay.
+    """
+    link = wait.until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "a[href='/en/daily']"))
+    )
+    driver.execute_script("arguments[0].click();", link)
+
+    try:
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.word")))
+        return
+    except TimeoutException:
+        pass
+
+    # ultimo recurso: clique nativo, caso o site passe a exigir evento real
+    link = wait.until(
+        EC.element_to_be_clickable((By.CSS_SELECTOR, "a[href='/en/daily']"))
+    )
+    link.click()
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.word")))
+
+
+abrir_partida_diaria()
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 model = BertModel.from_pretrained("bert-base-uncased")
@@ -57,7 +104,7 @@ embeddings = {}
 memory = {}
 
 # _v2: the old file was pooled over [PAD]/[CLS]/[SEP] and is invalid
-EMBEDDINGS_FILE = "embeddingsValues_v2.npz"
+EMBEDDINGS_FILE = "embeddingsValues.npz"
 
 if os.path.exists(EMBEDDINGS_FILE):
     print("Arquivo de embeddings encontrado.")
@@ -131,6 +178,51 @@ temas_exploratorios = [
 palavras_usadas = set()
 stems_usados = set()
 n_sugestoes = 10
+
+# palavras que o site recusa (desconhecidas ou comuns demais). Persistidas entre
+# execucoes para nunca mais gastar um chute com elas.
+PALAVRAS_INVALIDAS_FILE = "palavras_invalidas.txt"
+palavras_invalidas = set()
+
+if os.path.exists(PALAVRAS_INVALIDAS_FILE):
+    with open(PALAVRAS_INVALIDAS_FILE, encoding="utf-8") as f:
+        palavras_invalidas = {linha.strip().lower() for linha in f if linha.strip()}
+    print(f"{len(palavras_invalidas)} palavras invalidas carregadas de '{PALAVRAS_INVALIDAS_FILE}'.")
+
+
+def registrar_palavra_invalida(palavra, motivo):
+    """Marca a palavra como inutilizavel e grava no arquivo imediatamente."""
+    palavra = str(palavra).strip().lower()
+    palavras_usadas.add(palavra)
+    jogo_atual["invalidos"] += 1
+    if palavra in palavras_invalidas:
+        return
+    palavras_invalidas.add(palavra)
+    with open(PALAVRAS_INVALIDAS_FILE, "a", encoding="utf-8") as f:
+        print(palavra, file=f)
+    print(f"[invalida ({motivo}): {palavra}]")
+
+
+def _classificar_mensagem(texto):
+    """Le o balao de aviso do site: 'repetida' | 'desconhecida' | 'comum' | None."""
+    t = str(texto).strip().lower().replace("’", "'")
+    if not t:
+        return None
+    if "guessed" in t:
+        return "repetida"
+    if "know this word" in t:
+        return "desconhecida"
+    if "too common" in t:
+        return "comum"
+    return None
+
+
+temas_exploratorios = [t for t in temas_exploratorios if t not in palavras_invalidas]
+
+historico = dashboard.carregar_historico()
+jogo_atual = dashboard.iniciar_jogo(historico, date.today().isoformat())
+# de qual ramo de sugerir_proximo() veio o chute corrente, para o log por chute
+ultima_estrategia = "tema"
 
 # below 4 guesses the rank correlation is noise, so stick to the centroid
 MIN_CHUTES_CONSISTENCIA = 4
@@ -269,22 +361,41 @@ def _sugerir_por_consistencia(cands, M):
 
 
 def sugerir_proximo():
+    global ultima_estrategia
+
     if not memory:
-        sugestao = random.choice(temas_exploratorios)
-        temas_exploratorios.remove(sugestao)
+        ultima_estrategia = "tema"
+        if temas_exploratorios:
+            sugestao = random.choice(temas_exploratorios)
+            temas_exploratorios.remove(sugestao)
+        else:
+            sugestao = random.choice(
+                [
+                    c
+                    for c in candidatos_lista
+                    if c not in palavras_usadas and c not in palavras_invalidas
+                ]
+            )
         _marcar(sugestao)
         return [sugestao]
 
     # everything is bad: no reliable direction yet, try another semantic area
     if all(s >= 500 for s in memory.values()) and len(memory) < MIN_CHUTES_CONSISTENCIA:
         if temas_exploratorios:
+            ultima_estrategia = "tema"
             sugestao = random.choice(temas_exploratorios)
             temas_exploratorios.remove(sugestao)
             _marcar(sugestao)
             print(f"[explorando novo tema: {sugestao}]")
             return [sugestao]
+
+        ultima_estrategia = "aleatorio"
         candidato = random.choice(
-            [c for c in candidatos_lista if c not in palavras_usadas]
+            [
+                c
+                for c in candidatos_lista
+                if c not in palavras_usadas and c not in palavras_invalidas
+            ]
         )
         _marcar(candidato)
         return [candidato]
@@ -293,6 +404,7 @@ def sugerir_proximo():
         [
             c not in memory
             and c not in palavras_usadas
+            and c not in palavras_invalidas
             and candidatos_stems[i] not in stems_usados
             for i, c in enumerate(candidatos_lista)
         ]
@@ -307,10 +419,12 @@ def sugerir_proximo():
     matriz_filtrada = matriz_norm[mask]
 
     if len(memory) >= MIN_CHUTES_CONSISTENCIA:
+        ultima_estrategia = "consistencia"
         lista_palavras = _sugerir_por_consistencia(
             candidatos_filtrados, matriz_filtrada
         )
     else:
+        ultima_estrategia = "centroide"
         lista_palavras = _sugerir_por_centroide(candidatos_filtrados, matriz_filtrada)
 
     lista_palavras = list(dict.fromkeys(lista_palavras))
@@ -329,6 +443,15 @@ def enviar_chute_site(palavra):
     except:
         linha_anterior = ""
 
+    # um aviso remanescente do chute anterior seria lido como resposta deste;
+    # espera ele sumir antes de enviar (se nao sumir, seguimos mesmo assim)
+    try:
+        WebDriverWait(driver, 2, poll_frequency=0.1).until(
+            lambda d: not d.find_elements(By.CSS_SELECTOR, ".message-text")
+        )
+    except Exception:
+        pass
+
     input_box = driver.find_element(By.CSS_SELECTOR, "input.word")
     input_box.clear()
     input_box.send_keys(palavra)
@@ -341,20 +464,31 @@ def enviar_chute_site(palavra):
             if rows and rows[0].text != linha_anterior and rows[0].text != "":
                 return True
             msgs = d.find_elements(By.CSS_SELECTOR, ".message-text")
-            return bool(msgs) and "guessed" in msgs[0].text
+            return bool(msgs) and _classificar_mensagem(msgs[0].text) is not None
 
         WebDriverWait(driver, 3, poll_frequency=0.1).until(_esperar)
 
+        # a linha tem prioridade: se o chute valeu, ela mudou e o aviso e ruido
+        rows = driver.find_elements(By.CSS_SELECTOR, ".row-wrapper.current .row")
+        texto = rows[0].text.strip() if rows else ""
+        if texto and texto != linha_anterior:
+            palavra_retornada, score = texto.split()
+            return palavra_retornada.lower(), int(score)
+
         msg_elements = driver.find_elements(By.CSS_SELECTOR, ".message-text")
-        if msg_elements and "guessed" in msg_elements[0].text:
+        tipo = _classificar_mensagem(msg_elements[0].text) if msg_elements else None
+
+        if tipo == "repetida":
+            jogo_atual["repetidos"] += 1
             _marcar(palavra)
             print("Repetida:", palavra)
             return palavra, None
 
-        resultado = driver.find_element(By.CSS_SELECTOR, ".row-wrapper.current .row")
-        texto = resultado.text.strip()
-        palavra_retornada, score = texto.split()
-        return palavra_retornada.lower(), int(score)
+        if tipo in ("desconhecida", "comum"):
+            registrar_palavra_invalida(palavra, tipo)
+            return palavra, None
+
+        raise RuntimeError("resposta do site nao reconhecida")
     except Exception as e:
         print(f"[erro ao ler resultado de '{palavra}': {e}]")
         return palavra, None
@@ -394,6 +528,9 @@ def loop_automatico():
             chute, score = enviar_chute_site(palavra)
             if score is not None:
                 adicionar_chute(chute, score)
+                dashboard.registrar_chute(jogo_atual, chute, score, ultima_estrategia)
+                dashboard.salvar_historico(historico)
+                dashboard.atualizar_grafico(historico, jogo_atual)
                 print(f"{i+1}/{len(proximas)}:\t\t {chute} -> {score}")
                 if score <= 5:
                     print(f"[top 5!]")
