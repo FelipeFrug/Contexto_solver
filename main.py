@@ -1,49 +1,60 @@
-print("Importando 0/17")
 import os
-print("Importando 1/17")
 import torch
-print("Importando 2/17")
 import random
-print("Importando 3/17")
 import numpy as np
-print("Importando 4/17")
 import dashboard
-print("Importando 5/17")
 from datetime import date
-print("Importando 6/17")
 from selenium import webdriver
-print("Importando 7/17")
 from nltk.stem import PorterStemmer
-print("Importando 8/17")
 from IPython.display import clear_output
-print("Importando 9/17")
 from selenium.webdriver.common.by import By
-print("Importando 10/17")
 from selenium.webdriver.common.keys import Keys
-print("Importando 11/17")
 from transformers import BertTokenizer, BertModel
-print("Importando 12/17")
 from selenium.webdriver.chrome.service import Service
-print("Importando 13/17")
 from selenium.webdriver.support.ui import WebDriverWait
-print("Importando 14/17")
 from webdriver_manager.chrome import ChromeDriverManager
-print("Importando 15/17")
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-print("Importando 16/17")
 from selenium.webdriver.support import expected_conditions as EC
-print("Importando 17/17")
+import time
 
-print("Iniciando")
+
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-driver.get("https://contexto.me/en/")
-
-print("Driver")
-
 wait = WebDriverWait(driver, 20)
 
-print("Driver 2.0")
+URL_JOGO = "https://contexto.me/en/"
+
+
+def carregar_site(tentativas=3):
+    """Abre o site, tolerando falhas transitorias de rede.
+
+    O Chrome as vezes aborta a navegacao com ERR_NETWORK_CHANGED (troca de
+    adaptador/VPN/Wi-Fi) e serve uma pagina de erro. Sem esse retry, o efeito
+    aparecia so mais tarde como um TimeoutException procurando o link do jogo.
+    """
+    for tentativa in range(1, tentativas + 1):
+        try:
+            driver.get(URL_JOGO)
+            WebDriverWait(driver, 15).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "a[href='/en/daily']"))
+            )
+            return
+        except TimeoutException:
+            erro = driver.find_elements(By.CSS_SELECTOR, "#main-message .error-code")
+            motivo = erro[0].text.strip() if erro else "pagina nao carregou a tempo"
+            print(f"[tentativa {tentativa}/{tentativas} falhou: {motivo}]")
+
+    driver.quit()
+    raise SystemExit(
+        f"\nNao foi possivel carregar {URL_JOGO} apos {tentativas} tentativas.\n"
+        "Verifique a conexao (VPN/Wi-Fi trocando de rede causa "
+        "ERR_NETWORK_CHANGED) e rode de novo.\n"
+    )
+
+
+carregar_site()
+print("Site carregado")
+
 
 def abrir_partida_diaria():
     """Entra na partida do dia.
@@ -173,6 +184,11 @@ temas_exploratorios = [
     "plant",
     "profession",
     "color",
+    "water",
+    "house",
+    "money",
+    "road",
+    "machine",
 ]
 
 palavras_usadas = set()
@@ -363,32 +379,33 @@ def _sugerir_por_consistencia(cands, M):
 def sugerir_proximo():
     global ultima_estrategia
 
-    if not memory:
+    # abertura: varre todos os temas antes de qualquer inferencia. Custa alguns
+    # chutes, mas entra na fase seguinte com uma amostra ampla do espaco
+    # semantico e, com sorte, uma palavra ja perto do alvo pra ancorar o resto.
+    if temas_exploratorios:
         ultima_estrategia = "tema"
-        if temas_exploratorios:
-            sugestao = random.choice(temas_exploratorios)
-            temas_exploratorios.remove(sugestao)
-        else:
-            sugestao = random.choice(
-                [
-                    c
-                    for c in candidatos_lista
-                    if c not in palavras_usadas and c not in palavras_invalidas
-                ]
-            )
+        sugestoes = list(temas_exploratorios)
+        temas_exploratorios.clear()
+        for w in sugestoes:
+            _marcar(w)
+        print(f"[explorando {len(sugestoes)} temas: {', '.join(sugestoes)}]")
+        return sugestoes
+
+    # nenhum tema valeu chute (todos recusados pelo site): parte do aleatorio
+    if not memory:
+        ultima_estrategia = "aleatorio"
+        sugestao = random.choice(
+            [
+                c
+                for c in candidatos_lista
+                if c not in palavras_usadas and c not in palavras_invalidas
+            ]
+        )
         _marcar(sugestao)
         return [sugestao]
 
     # everything is bad: no reliable direction yet, try another semantic area
     if all(s >= 500 for s in memory.values()) and len(memory) < MIN_CHUTES_CONSISTENCIA:
-        if temas_exploratorios:
-            ultima_estrategia = "tema"
-            sugestao = random.choice(temas_exploratorios)
-            temas_exploratorios.remove(sugestao)
-            _marcar(sugestao)
-            print(f"[explorando novo tema: {sugestao}]")
-            return [sugestao]
-
         ultima_estrategia = "aleatorio"
         candidato = random.choice(
             [
@@ -548,9 +565,13 @@ def loop_automatico():
             n_sugestoes = 10
 
 
-try:
-    loop_automatico()
 
+try:
+    tempo_inicial = time.time()
+    loop_automatico()
+    tempo_final = time.time
+    dif = tempo_final - tempo_inicial
+    print(f"DURACAO: {dif}")
 except NoSuchElementException:
     clear_output(wait=False)
     print("\n[ERRO] Não foi possível encontrar o campo de input do jogo.")

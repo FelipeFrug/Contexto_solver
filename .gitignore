@@ -3,3 +3,6 @@ embeddingsValues.npz
 __pycache__/
 bash.exe.stackdump
 notes.txt
+brag-output/
+*.png
+historico.json
