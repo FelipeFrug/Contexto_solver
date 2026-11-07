@@ -1849,6 +1849,4052 @@
    "repetidos": 0,
    "resolvido": false,
    "palavra": null
+  },
+  {
+   "id": "2026-08-31",
+   "inicio": "2026-08-31T19:19:04",
+   "chutes": [
+    {
+     "n": 1,
+     "palavra": "object",
+     "rank": 678,
+     "estrategia": "tema"
+    },
+    {
+     "n": 2,
+     "palavra": "place",
+     "rank": 425,
+     "estrategia": "tema"
+    },
+    {
+     "n": 3,
+     "palavra": "person",
+     "rank": 4105,
+     "estrategia": "tema"
+    },
+    {
+     "n": 4,
+     "palavra": "animal",
+     "rank": 5218,
+     "estrategia": "tema"
+    },
+    {
+     "n": 5,
+     "palavra": "emotion",
+     "rank": 17233,
+     "estrategia": "tema"
+    },
+    {
+     "n": 6,
+     "palavra": "food",
+     "rank": 129,
+     "estrategia": "tema"
+    },
+    {
+     "n": 7,
+     "palavra": "vehicle",
+     "rank": 11428,
+     "estrategia": "tema"
+    },
+    {
+     "n": 8,
+     "palavra": "technology",
+     "rank": 3777,
+     "estrategia": "tema"
+    },
+    {
+     "n": 9,
+     "palavra": "family",
+     "rank": 6232,
+     "estrategia": "tema"
+    },
+    {
+     "n": 10,
+     "palavra": "music",
+     "rank": 5150,
+     "estrategia": "tema"
+    },
+    {
+     "n": 11,
+     "palavra": "clothes",
+     "rank": 172,
+     "estrategia": "tema"
+    },
+    {
+     "n": 12,
+     "palavra": "plant",
+     "rank": 4307,
+     "estrategia": "tema"
+    },
+    {
+     "n": 13,
+     "palavra": "profession",
+     "rank": 23116,
+     "estrategia": "tema"
+    },
+    {
+     "n": 14,
+     "palavra": "color",
+     "rank": 1272,
+     "estrategia": "tema"
+    },
+    {
+     "n": 15,
+     "palavra": "water",
+     "rank": 299,
+     "estrategia": "tema"
+    },
+    {
+     "n": 16,
+     "palavra": "house",
+     "rank": 1649,
+     "estrategia": "tema"
+    },
+    {
+     "n": 17,
+     "palavra": "money",
+     "rank": 2676,
+     "estrategia": "tema"
+    },
+    {
+     "n": 18,
+     "palavra": "road",
+     "rank": 18663,
+     "estrategia": "tema"
+    },
+    {
+     "n": 19,
+     "palavra": "machine",
+     "rank": 516,
+     "estrategia": "tema"
+    },
+    {
+     "n": 20,
+     "palavra": "select",
+     "rank": 4166,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 21,
+     "palavra": "pick",
+     "rank": 1700,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 22,
+     "palavra": "game",
+     "rank": 3952,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 23,
+     "palavra": "skating",
+     "rank": 18415,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 24,
+     "palavra": "climb",
+     "rank": 5724,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 25,
+     "palavra": "tile",
+     "rank": 863,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 26,
+     "palavra": "guarantee",
+     "rank": 11260,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 27,
+     "palavra": "four",
+     "rank": 4301,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 28,
+     "palavra": "patch",
+     "rank": 17239,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 29,
+     "palavra": "number",
+     "rank": 11179,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 30,
+     "palavra": "change",
+     "rank": 8131,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 31,
+     "palavra": "table",
+     "rank": 176,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 32,
+     "palavra": "source",
+     "rank": 3027,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 33,
+     "palavra": "match",
+     "rank": 4187,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 34,
+     "palavra": "sample",
+     "rank": 6610,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 35,
+     "palavra": "preference",
+     "rank": 5080,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 36,
+     "palavra": "loss",
+     "rank": 28699,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 37,
+     "palavra": "land",
+     "rank": 14538,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 38,
+     "palavra": "file",
+     "rank": 2382,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 39,
+     "palavra": "dinner",
+     "rank": 395,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 40,
+     "palavra": "kitchen",
+     "rank": 13,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 41,
+     "palavra": "bedroom",
+     "rank": 2088,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 42,
+     "palavra": "bathroom",
+     "rank": 169,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 43,
+     "palavra": "fridge",
+     "rank": 43,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 44,
+     "palavra": "cafeteria",
+     "rank": 618,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 45,
+     "palavra": "refrigerator",
+     "rank": 34,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 46,
+     "palavra": "microwave",
+     "rank": 51,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 47,
+     "palavra": "basement",
+     "rank": 11676,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 48,
+     "palavra": "furniture",
+     "rank": 140,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 49,
+     "palavra": "barbecue",
+     "rank": 71,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 50,
+     "palavra": "cook",
+     "rank": 24,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 51,
+     "palavra": "couch",
+     "rank": 1809,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 52,
+     "palavra": "coffee",
+     "rank": 189,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 53,
+     "palavra": "salad",
+     "rank": 173,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 54,
+     "palavra": "servant",
+     "rank": 5085,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 55,
+     "palavra": "dresser",
+     "rank": 291,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 56,
+     "palavra": "grocery",
+     "rank": 281,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 57,
+     "palavra": "pancake",
+     "rank": 2106,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 58,
+     "palavra": "restaurant",
+     "rank": 715,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 59,
+     "palavra": "breakfast",
+     "rank": 1033,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 60,
+     "palavra": "garden",
+     "rank": 533,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 61,
+     "palavra": "bread",
+     "rank": 159,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 62,
+     "palavra": "toilet",
+     "rank": 125,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 63,
+     "palavra": "steak",
+     "rank": 514,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 64,
+     "palavra": "biscuit",
+     "rank": 741,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 65,
+     "palavra": "diner",
+     "rank": 857,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 66,
+     "palavra": "stable",
+     "rank": 12616,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 67,
+     "palavra": "balcony",
+     "rank": 1838,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 68,
+     "palavra": "dish",
+     "rank": 22,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 69,
+     "palavra": "vegetable",
+     "rank": 139,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 70,
+     "palavra": "cabinet",
+     "rank": 132,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 71,
+     "palavra": "apron",
+     "rank": 72,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 72,
+     "palavra": "backyard",
+     "rank": 2040,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 73,
+     "palavra": "appliance",
+     "rank": 40,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 74,
+     "palavra": "cheese",
+     "rank": 489,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 75,
+     "palavra": "cake",
+     "rank": 473,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 76,
+     "palavra": "towel",
+     "rank": 31,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 77,
+     "palavra": "garlic",
+     "rank": 654,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 78,
+     "palavra": "toast",
+     "rank": 753,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 79,
+     "palavra": "knife",
+     "rank": 27,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 80,
+     "palavra": "cleaning",
+     "rank": 162,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 81,
+     "palavra": "pizza",
+     "rank": 1093,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 82,
+     "palavra": "nightstand",
+     "rank": 987,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 83,
+     "palavra": "plumb",
+     "rank": 2746,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 84,
+     "palavra": "onion",
+     "rank": 639,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 85,
+     "palavra": "farmhouse",
+     "rank": 1979,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 86,
+     "palavra": "decor",
+     "rank": 183,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 87,
+     "palavra": "bandage",
+     "rank": 2358,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 88,
+     "palavra": "wash",
+     "rank": 52,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 89,
+     "palavra": "snack",
+     "rank": 187,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 90,
+     "palavra": "pickup",
+     "rank": 8633,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 91,
+     "palavra": "dry",
+     "rank": 186,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 92,
+     "palavra": "drink",
+     "rank": 606,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 93,
+     "palavra": "cookie",
+     "rank": 431,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 94,
+     "palavra": "mirror",
+     "rank": 1463,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 95,
+     "palavra": "sandwich",
+     "rank": 688,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 96,
+     "palavra": "noodle",
+     "rank": 466,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 97,
+     "palavra": "pudding",
+     "rank": 2065,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 98,
+     "palavra": "brush",
+     "rank": 211,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 99,
+     "palavra": "restroom",
+     "rank": 315,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 100,
+     "palavra": "insulation",
+     "rank": 12428,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 101,
+     "palavra": "bartender",
+     "rank": 2506,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 102,
+     "palavra": "canteen",
+     "rank": 103,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 103,
+     "palavra": "shop",
+     "rank": 1229,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 104,
+     "palavra": "spray",
+     "rank": 2672,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 105,
+     "palavra": "driveway",
+     "rank": 18528,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 106,
+     "palavra": "blanket",
+     "rank": 385,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 107,
+     "palavra": "chair",
+     "rank": 279,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 108,
+     "palavra": "sausage",
+     "rank": 1352,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 109,
+     "palavra": "napkin",
+     "rank": 30,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 110,
+     "palavra": "waitress",
+     "rank": 3168,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 111,
+     "palavra": "wardrobe",
+     "rank": 997,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 112,
+     "palavra": "trash",
+     "rank": 311,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 113,
+     "palavra": "herb",
+     "rank": 1029,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 114,
+     "palavra": "flour",
+     "rank": 462,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 115,
+     "palavra": "wall",
+     "rank": 1324,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 116,
+     "palavra": "ingredient",
+     "rank": 280,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 117,
+     "palavra": "popcorn",
+     "rank": 712,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 118,
+     "palavra": "barefoot",
+     "rank": 13718,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 119,
+     "palavra": "burger",
+     "rank": 4224,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 120,
+     "palavra": "cuisine",
+     "rank": 540,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 121,
+     "palavra": "laundry",
+     "rank": 90,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 122,
+     "palavra": "paint",
+     "rank": 738,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 123,
+     "palavra": "storage",
+     "rank": 109,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 124,
+     "palavra": "pump",
+     "rank": 17498,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 125,
+     "palavra": "classroom",
+     "rank": 2372,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 126,
+     "palavra": "recycling",
+     "rank": 1050,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 127,
+     "palavra": "parchment",
+     "rank": 389,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 128,
+     "palavra": "incense",
+     "rank": 765,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 129,
+     "palavra": "garbage",
+     "rank": 283,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 130,
+     "palavra": "inspection",
+     "rank": 5072,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 131,
+     "palavra": "bottle",
+     "rank": 192,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 132,
+     "palavra": "cafe",
+     "rank": 3538,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 133,
+     "palavra": "pillow",
+     "rank": 492,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 134,
+     "palavra": "whiskey",
+     "rank": 11808,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 135,
+     "palavra": "stool",
+     "rank": 251,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 136,
+     "palavra": "drawer",
+     "rank": 50,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 137,
+     "palavra": "laptop",
+     "rank": 2376,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 138,
+     "palavra": "stall",
+     "rank": 2467,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 139,
+     "palavra": "tool",
+     "rank": 102,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 140,
+     "palavra": "supply",
+     "rank": 233,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 141,
+     "palavra": "shirt",
+     "rank": 4206,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 142,
+     "palavra": "short",
+     "rank": 11202,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 143,
+     "palavra": "computer",
+     "rank": 1972,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 144,
+     "palavra": "cellar",
+     "rank": 845,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 145,
+     "palavra": "wiring",
+     "rank": 7757,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 146,
+     "palavra": "cupboard",
+     "rank": 44,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 147,
+     "palavra": "waiter",
+     "rank": 658,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 148,
+     "palavra": "ration",
+     "rank": 1774,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 149,
+     "palavra": "server",
+     "rank": 2975,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 150,
+     "palavra": "room",
+     "rank": 633,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 151,
+     "palavra": "spice",
+     "rank": 157,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 152,
+     "palavra": "cottage",
+     "rank": 2924,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 153,
+     "palavra": "coconut",
+     "rank": 3310,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 154,
+     "palavra": "potato",
+     "rank": 373,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 155,
+     "palavra": "meal",
+     "rank": 194,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 156,
+     "palavra": "nutrient",
+     "rank": 3728,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 157,
+     "palavra": "pipe",
+     "rank": 1524,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 158,
+     "palavra": "cocktail",
+     "rank": 1120,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 159,
+     "palavra": "sneaker",
+     "rank": 27588,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 160,
+     "palavra": "champagne",
+     "rank": 5682,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 161,
+     "palavra": "handle",
+     "rank": 91,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 162,
+     "palavra": "mushroom",
+     "rank": 2842,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 163,
+     "palavra": "phone",
+     "rank": 3140,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 164,
+     "palavra": "brandy",
+     "rank": 43073,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 165,
+     "palavra": "booth",
+     "rank": 2966,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 166,
+     "palavra": "chip",
+     "rank": 729,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 167,
+     "palavra": "lock",
+     "rank": 1140,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 168,
+     "palavra": "treat",
+     "rank": 2433,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 169,
+     "palavra": "bulb",
+     "rank": 4148,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 170,
+     "palavra": "sandal",
+     "rank": 18008,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 171,
+     "palavra": "downstairs",
+     "rank": 1391,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 172,
+     "palavra": "mill",
+     "rank": 3528,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 173,
+     "palavra": "drip",
+     "rank": 367,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 174,
+     "palavra": "patio",
+     "rank": 707,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 175,
+     "palavra": "scissors",
+     "rank": 133,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 176,
+     "palavra": "bowl",
+     "rank": 25,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 177,
+     "palavra": "feast",
+     "rank": 1783,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 178,
+     "palavra": "handwriting",
+     "rank": 7179,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 179,
+     "palavra": "bean",
+     "rank": 674,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 180,
+     "palavra": "fry",
+     "rank": 54,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 181,
+     "palavra": "butcher",
+     "rank": 381,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 182,
+     "palavra": "infirmary",
+     "rank": 23304,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 183,
+     "palavra": "heating",
+     "rank": 1496,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 184,
+     "palavra": "weaving",
+     "rank": 3672,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 185,
+     "palavra": "tomato",
+     "rank": 1235,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 186,
+     "palavra": "glass",
+     "rank": 269,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 187,
+     "palavra": "foyer",
+     "rank": 3866,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 188,
+     "palavra": "fabric",
+     "rank": 2002,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 189,
+     "palavra": "box",
+     "rank": 243,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 190,
+     "palavra": "jacket",
+     "rank": 7758,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 191,
+     "palavra": "quarry",
+     "rank": 7815,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 192,
+     "palavra": "stone",
+     "rank": 2923,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 193,
+     "palavra": "nursery",
+     "rank": 1286,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 194,
+     "palavra": "banana",
+     "rank": 1695,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 195,
+     "palavra": "jeans",
+     "rank": 14517,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 196,
+     "palavra": "messy",
+     "rank": 1681,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 197,
+     "palavra": "medication",
+     "rank": 4012,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 198,
+     "palavra": "carpet",
+     "rank": 1135,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 199,
+     "palavra": "pastry",
+     "rank": 248,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 200,
+     "palavra": "curry",
+     "rank": 1743,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 201,
+     "palavra": "cooler",
+     "rank": 629,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 202,
+     "palavra": "basic",
+     "rank": 894,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 203,
+     "palavra": "counter",
+     "rank": 472,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 204,
+     "palavra": "cigarette",
+     "rank": 3537,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 205,
+     "palavra": "door",
+     "rank": 2086,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 206,
+     "palavra": "lighting",
+     "rank": 3016,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 207,
+     "palavra": "chant",
+     "rank": 12373,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 208,
+     "palavra": "pasta",
+     "rank": 188,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 209,
+     "palavra": "suitcase",
+     "rank": 519,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 210,
+     "palavra": "tailor",
+     "rank": 9885,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 211,
+     "palavra": "dessert",
+     "rank": 223,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 212,
+     "palavra": "apple",
+     "rank": 1423,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 213,
+     "palavra": "rubble",
+     "rank": 31329,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 214,
+     "palavra": "cereal",
+     "rank": 1217,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 215,
+     "palavra": "bacon",
+     "rank": 2674,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 216,
+     "palavra": "shoe",
+     "rank": 2930,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 217,
+     "palavra": "porcelain",
+     "rank": 137,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 218,
+     "palavra": "hospitality",
+     "rank": 2504,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 219,
+     "palavra": "upstairs",
+     "rank": 2554,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 220,
+     "palavra": "sheet",
+     "rank": 590,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 221,
+     "palavra": "tube",
+     "rank": 1489,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 222,
+     "palavra": "chicken",
+     "rank": 1064,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 223,
+     "palavra": "peach",
+     "rank": 6338,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 224,
+     "palavra": "concrete",
+     "rank": 4878,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 225,
+     "palavra": "pocket",
+     "rank": 496,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 226,
+     "palavra": "notebook",
+     "rank": 2712,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 227,
+     "palavra": "inventory",
+     "rank": 3023,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 228,
+     "palavra": "butter",
+     "rank": 387,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 229,
+     "palavra": "shelf",
+     "rank": 178,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 230,
+     "palavra": "stock",
+     "rank": 276,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 231,
+     "palavra": "drain",
+     "rank": 949,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 232,
+     "palavra": "fingernail",
+     "rank": 742,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 233,
+     "palavra": "attic",
+     "rank": 6406,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 234,
+     "palavra": "apartment",
+     "rank": 6577,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 235,
+     "palavra": "bath",
+     "rank": 426,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 236,
+     "palavra": "thirsty",
+     "rank": 7499,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 237,
+     "palavra": "shrimp",
+     "rank": 2394,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 238,
+     "palavra": "knife",
+     "rank": 27,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 239,
+     "palavra": "sock",
+     "rank": 3980,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 240,
+     "palavra": "trunk",
+     "rank": 3369,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 241,
+     "palavra": "remote",
+     "rank": 2577,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 242,
+     "palavra": "accommodation",
+     "rank": 4429,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 243,
+     "palavra": "supplement",
+     "rank": 11688,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 244,
+     "palavra": "dental",
+     "rank": 3151,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 245,
+     "palavra": "rehearsal",
+     "rank": 5643,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 246,
+     "palavra": "delicious",
+     "rank": 1193,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 247,
+     "palavra": "starvation",
+     "rank": 5624,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 248,
+     "palavra": "candy",
+     "rank": 878,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 249,
+     "palavra": "gift",
+     "rank": 592,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 250,
+     "palavra": "pantry",
+     "rank": 85,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 251,
+     "palavra": "housekeeper",
+     "rank": 1611,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 252,
+     "palavra": "sail",
+     "rank": 12954,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 253,
+     "palavra": "garage",
+     "rank": 3997,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 254,
+     "palavra": "squirrel",
+     "rank": 15366,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 255,
+     "palavra": "bead",
+     "rank": 1957,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 256,
+     "palavra": "shelf",
+     "rank": 178,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 257,
+     "palavra": "mouth",
+     "rank": 951,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 258,
+     "palavra": "bakery",
+     "rank": 1441,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 259,
+     "palavra": "shovel",
+     "rank": 121,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 260,
+     "palavra": "boil",
+     "rank": 402,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 261,
+     "palavra": "salty",
+     "rank": 8129,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 262,
+     "palavra": "pencil",
+     "rank": 388,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 263,
+     "palavra": "kettle",
+     "rank": 35,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 264,
+     "palavra": "chatter",
+     "rank": 5247,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 265,
+     "palavra": "pour",
+     "rank": 610,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 266,
+     "palavra": "liquid",
+     "rank": 587,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 267,
+     "palavra": "pour",
+     "rank": 610,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 268,
+     "palavra": "harvest",
+     "rank": 4390,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 269,
+     "palavra": "sensor",
+     "rank": 6173,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 270,
+     "palavra": "muddy",
+     "rank": 26812,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 271,
+     "palavra": "slack",
+     "rank": 7846,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 272,
+     "palavra": "flashlight",
+     "rank": 760,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 273,
+     "palavra": "glove",
+     "rank": 726,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 274,
+     "palavra": "nurse",
+     "rank": 15689,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 275,
+     "palavra": "lamp",
+     "rank": 619,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 276,
+     "palavra": "truck",
+     "rank": 4486,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 277,
+     "palavra": "candle",
+     "rank": 374,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 278,
+     "palavra": "furnish",
+     "rank": 334,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 279,
+     "palavra": "metal",
+     "rank": 255,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 280,
+     "palavra": "brick",
+     "rank": 6349,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 281,
+     "palavra": "chilly",
+     "rank": 9066,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 282,
+     "palavra": "heel",
+     "rank": 27203,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 283,
+     "palavra": "mortar",
+     "rank": 9571,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 284,
+     "palavra": "printer",
+     "rank": 3186,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 285,
+     "palavra": "wedding",
+     "rank": 8233,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 286,
+     "palavra": "crate",
+     "rank": 1000,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 287,
+     "palavra": "plate",
+     "rank": 47,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 288,
+     "palavra": "blind",
+     "rank": 14959,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 289,
+     "palavra": "tablet",
+     "rank": 2805,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 290,
+     "palavra": "envelope",
+     "rank": 2776,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 291,
+     "palavra": "mattress",
+     "rank": 1501,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 292,
+     "palavra": "treasure",
+     "rank": 923,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 293,
+     "palavra": "hungry",
+     "rank": 3425,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 294,
+     "palavra": "saving",
+     "rank": 5725,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 295,
+     "palavra": "dairy",
+     "rank": 4747,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 296,
+     "palavra": "linen",
+     "rank": 29,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 297,
+     "palavra": "waste",
+     "rank": 1220,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 298,
+     "palavra": "wallet",
+     "rank": 1345,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 299,
+     "palavra": "stack",
+     "rank": 356,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 300,
+     "palavra": "worship",
+     "rank": 7555,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 301,
+     "palavra": "panel",
+     "rank": 5552,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 302,
+     "palavra": "underwear",
+     "rank": 2861,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 303,
+     "palavra": "hook",
+     "rank": 127,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 304,
+     "palavra": "store",
+     "rank": 114,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 305,
+     "palavra": "warmth",
+     "rank": 9231,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 306,
+     "palavra": "recipe",
+     "rank": 330,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 307,
+     "palavra": "bedside",
+     "rank": 424,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 308,
+     "palavra": "barrel",
+     "rank": 2398,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 309,
+     "palavra": "cutting",
+     "rank": 234,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 310,
+     "palavra": "dealer",
+     "rank": 20510,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 311,
+     "palavra": "staple",
+     "rank": 382,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 312,
+     "palavra": "doorway",
+     "rank": 12629,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 313,
+     "palavra": "chop",
+     "rank": 48,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 314,
+     "palavra": "furnace",
+     "rank": 3976,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 315,
+     "palavra": "basket",
+     "rank": 123,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 316,
+     "palavra": "yeast",
+     "rank": 8689,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 317,
+     "palavra": "slice",
+     "rank": 182,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 318,
+     "palavra": "buffer",
+     "rank": 5430,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 319,
+     "palavra": "feed",
+     "rank": 464,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 320,
+     "palavra": "chore",
+     "rank": 416,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 321,
+     "palavra": "pumpkin",
+     "rank": 2240,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 322,
+     "palavra": "spoon",
+     "rank": 8,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 323,
+     "palavra": "nail",
+     "rank": 1453,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 324,
+     "palavra": "needle",
+     "rank": 694,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 325,
+     "palavra": "eat",
+     "rank": 480,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 326,
+     "palavra": "stitch",
+     "rank": 3520,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 327,
+     "palavra": "puzzle",
+     "rank": 4652,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 328,
+     "palavra": "scoop",
+     "rank": 593,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 329,
+     "palavra": "thrash",
+     "rank": 15215,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 330,
+     "palavra": "spaghetti",
+     "rank": 1360,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 331,
+     "palavra": "sponge",
+     "rank": 282,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 332,
+     "palavra": "cream",
+     "rank": 391,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 333,
+     "palavra": "poke",
+     "rank": 1630,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 334,
+     "palavra": "dough",
+     "rank": 242,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 335,
+     "palavra": "deliver",
+     "rank": 6344,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 336,
+     "palavra": "socket",
+     "rank": 2110,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 337,
+     "palavra": "freeze",
+     "rank": 5079,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 338,
+     "palavra": "stuff",
+     "rank": 567,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 339,
+     "palavra": "carving",
+     "rank": 218,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 340,
+     "palavra": "circle",
+     "rank": 6671,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 341,
+     "palavra": "argue",
+     "rank": 27783,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 342,
+     "palavra": "cart",
+     "rank": 253,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 343,
+     "palavra": "worm",
+     "rank": 5087,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 344,
+     "palavra": "peel",
+     "rank": 770,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 345,
+     "palavra": "eater",
+     "rank": 3633,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 346,
+     "palavra": "container",
+     "rank": 37,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 347,
+     "palavra": "cradle",
+     "rank": 1745,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 348,
+     "palavra": "scarf",
+     "rank": 5149,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 349,
+     "palavra": "quilt",
+     "rank": 3792,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 350,
+     "palavra": "wedge",
+     "rank": 2493,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 351,
+     "palavra": "roast",
+     "rank": 955,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 352,
+     "palavra": "sauce",
+     "rank": 275,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 353,
+     "palavra": "ripple",
+     "rank": 27405,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 354,
+     "palavra": "offer",
+     "rank": 4974,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 355,
+     "palavra": "weigh",
+     "rank": 8064,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 356,
+     "palavra": "shutter",
+     "rank": 9497,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 357,
+     "palavra": "broom",
+     "rank": 410,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 358,
+     "palavra": "balloon",
+     "rank": 11803,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 359,
+     "palavra": "neighbor",
+     "rank": 11191,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 360,
+     "palavra": "lobster",
+     "rank": 1895,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 361,
+     "palavra": "zipper",
+     "rank": 1842,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 362,
+     "palavra": "voodoo",
+     "rank": 18312,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 363,
+     "palavra": "jelly",
+     "rank": 5012,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 364,
+     "palavra": "retrieve",
+     "rank": 2309,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 365,
+     "palavra": "overrun",
+     "rank": 48327,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 366,
+     "palavra": "fresh",
+     "rank": 2235,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 367,
+     "palavra": "sweep",
+     "rank": 6581,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 368,
+     "palavra": "syrup",
+     "rank": 3373,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 369,
+     "palavra": "crust",
+     "rank": 1633,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 370,
+     "palavra": "cabbage",
+     "rank": 1362,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 371,
+     "palavra": "grain",
+     "rank": 2802,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 372,
+     "palavra": "shrink",
+     "rank": 14626,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 373,
+     "palavra": "milky",
+     "rank": 38974,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 374,
+     "palavra": "shack",
+     "rank": 1878,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 375,
+     "palavra": "blossom",
+     "rank": 11725,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 376,
+     "palavra": "fork",
+     "rank": 136,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 377,
+     "palavra": "filling",
+     "rank": 1027,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 378,
+     "palavra": "spear",
+     "rank": 2232,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 379,
+     "palavra": "bucket",
+     "rank": 340,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 380,
+     "palavra": "motion",
+     "rank": 10842,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 381,
+     "palavra": "belly",
+     "rank": 4159,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 382,
+     "palavra": "sling",
+     "rank": 2814,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 383,
+     "palavra": "reach",
+     "rank": 4393,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 384,
+     "palavra": "bubble",
+     "rank": 2610,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 385,
+     "palavra": "plastic",
+     "rank": 78,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 386,
+     "palavra": "squid",
+     "rank": 5338,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 387,
+     "palavra": "layer",
+     "rank": 2673,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 388,
+     "palavra": "paste",
+     "rank": 1436,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 389,
+     "palavra": "sell",
+     "rank": 3712,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 390,
+     "palavra": "ammunition",
+     "rank": 6045,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 391,
+     "palavra": "homemade",
+     "rank": 966,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 392,
+     "palavra": "pajama",
+     "rank": 4432,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 393,
+     "palavra": "creamy",
+     "rank": 6037,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 394,
+     "palavra": "workout",
+     "rank": 4438,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 395,
+     "palavra": "furry",
+     "rank": 46323,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 396,
+     "palavra": "chest",
+     "rank": 499,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 397,
+     "palavra": "wagon",
+     "rank": 3349,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 398,
+     "palavra": "cigar",
+     "rank": 3996,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 399,
+     "palavra": "mustard",
+     "rank": 820,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 400,
+     "palavra": "grape",
+     "rank": 2075,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 401,
+     "palavra": "lemon",
+     "rank": 2714,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 402,
+     "palavra": "label",
+     "rank": 1313,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 403,
+     "palavra": "keyboard",
+     "rank": 1147,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 404,
+     "palavra": "rhyme",
+     "rank": 6097,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 405,
+     "palavra": "sew",
+     "rank": 294,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 406,
+     "palavra": "tractor",
+     "rank": 5684,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 407,
+     "palavra": "stove",
+     "rank": 32,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 408,
+     "palavra": "notch",
+     "rank": 4138,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 409,
+     "palavra": "closet",
+     "rank": 498,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 410,
+     "palavra": "heartland",
+     "rank": 21446,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 411,
+     "palavra": "pill",
+     "rank": 10327,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 412,
+     "palavra": "inside",
+     "rank": 1056,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 413,
+     "palavra": "fold",
+     "rank": 915,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 414,
+     "palavra": "backside",
+     "rank": 25861,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 415,
+     "palavra": "manufacture",
+     "rank": 1065,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 416,
+     "palavra": "twist",
+     "rank": 3345,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 417,
+     "palavra": "fisherman",
+     "rank": 5770,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 418,
+     "palavra": "pepsi",
+     "rank": 35926,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 419,
+     "palavra": "poison",
+     "rank": 4729,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 420,
+     "palavra": "steam",
+     "rank": 108,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 421,
+     "palavra": "warm",
+     "rank": 1872,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 422,
+     "palavra": "marrow",
+     "rank": 3401,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 423,
+     "palavra": "fireplace",
+     "rank": 541,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 424,
+     "palavra": "carry",
+     "rank": 469,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 425,
+     "palavra": "thinner",
+     "rank": 4526,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 426,
+     "palavra": "thanksgiving",
+     "rank": 1609,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 427,
+     "palavra": "stick",
+     "rank": 398,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 428,
+     "palavra": "gram",
+     "rank": 2311,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 429,
+     "palavra": "patty",
+     "rank": 5494,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 430,
+     "palavra": "steer",
+     "rank": 12458,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 431,
+     "palavra": "spill",
+     "rank": 746,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 432,
+     "palavra": "wander",
+     "rank": 22087,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 433,
+     "palavra": "waist",
+     "rank": 10400,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 434,
+     "palavra": "accuse",
+     "rank": 19282,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 435,
+     "palavra": "trailer",
+     "rank": 5905,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 436,
+     "palavra": "cleanup",
+     "rank": 2480,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 437,
+     "palavra": "scramble",
+     "rank": 16187,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 438,
+     "palavra": "jewelry",
+     "rank": 509,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 439,
+     "palavra": "chocolate",
+     "rank": 2360,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 440,
+     "palavra": "nutrition",
+     "rank": 3749,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 441,
+     "palavra": "chalk",
+     "rank": 1962,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 442,
+     "palavra": "rose",
+     "rank": 12264,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 443,
+     "palavra": "coating",
+     "rank": 1307,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 444,
+     "palavra": "pixel",
+     "rank": 33932,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 445,
+     "palavra": "divide",
+     "rank": 1929,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 446,
+     "palavra": "bake",
+     "rank": 76,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 447,
+     "palavra": "lizard",
+     "rank": 26924,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 448,
+     "palavra": "sanskrit",
+     "rank": 18066,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 449,
+     "palavra": "backpack",
+     "rank": 662,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 450,
+     "palavra": "sweetie",
+     "rank": 18464,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 451,
+     "palavra": "roommate",
+     "rank": 20565,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 452,
+     "palavra": "communion",
+     "rank": 2053,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 453,
+     "palavra": "service",
+     "rank": 3571,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 454,
+     "palavra": "clinic",
+     "rank": 42401,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 455,
+     "palavra": "repair",
+     "rank": 4993,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 456,
+     "palavra": "scroll",
+     "rank": 2116,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 457,
+     "palavra": "tongue",
+     "rank": 2740,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 458,
+     "palavra": "elbow",
+     "rank": 8235,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 459,
+     "palavra": "frame",
+     "rank": 888,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 460,
+     "palavra": "footprint",
+     "rank": 1749,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 461,
+     "palavra": "swirl",
+     "rank": 3216,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 462,
+     "palavra": "wonderland",
+     "rank": 31281,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 463,
+     "palavra": "melt",
+     "rank": 823,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 464,
+     "palavra": "puddle",
+     "rank": 16145,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 465,
+     "palavra": "switch",
+     "rank": 4716,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 466,
+     "palavra": "umbrella",
+     "rank": 659,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 467,
+     "palavra": "powder",
+     "rank": 783,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 468,
+     "palavra": "gunpowder",
+     "rank": 4306,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 469,
+     "palavra": "steel",
+     "rank": 99,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 470,
+     "palavra": "bicycle",
+     "rank": 969,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 471,
+     "palavra": "rock",
+     "rank": 3169,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 472,
+     "palavra": "granite",
+     "rank": 934,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 473,
+     "palavra": "marble",
+     "rank": 1899,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 474,
+     "palavra": "mixture",
+     "rank": 1428,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 475,
+     "palavra": "ladder",
+     "rank": 515,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 476,
+     "palavra": "enamel",
+     "rank": 175,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 477,
+     "palavra": "lumber",
+     "rank": 9076,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 478,
+     "palavra": "plaster",
+     "rank": 7630,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 479,
+     "palavra": "drainage",
+     "rank": 5518,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 480,
+     "palavra": "spoil",
+     "rank": 2775,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 481,
+     "palavra": "chain",
+     "rank": 3193,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 482,
+     "palavra": "grind",
+     "rank": 513,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 483,
+     "palavra": "hammer",
+     "rank": 1459,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 484,
+     "palavra": "peter",
+     "rank": 46739,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 485,
+     "palavra": "salt",
+     "rank": 822,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 486,
+     "palavra": "juice",
+     "rank": 900,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 487,
+     "palavra": "pants",
+     "rank": 4712,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 488,
+     "palavra": "package",
+     "rank": 596,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 489,
+     "palavra": "oyster",
+     "rank": 2687,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 490,
+     "palavra": "ledge",
+     "rank": 8952,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 491,
+     "palavra": "liquor",
+     "rank": 4572,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 492,
+     "palavra": "packing",
+     "rank": 552,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 493,
+     "palavra": "dump",
+     "rank": 2014,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 494,
+     "palavra": "punch",
+     "rank": 2327,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 495,
+     "palavra": "folder",
+     "rank": 1603,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 496,
+     "palavra": "refuse",
+     "rank": 6332,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 497,
+     "palavra": "reactor",
+     "rank": 12770,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 498,
+     "palavra": "flavor",
+     "rank": 2663,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 499,
+     "palavra": "condition",
+     "rank": 2906,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 500,
+     "palavra": "leather",
+     "rank": 3129,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 501,
+     "palavra": "delivery",
+     "rank": 9394,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 502,
+     "palavra": "sweet",
+     "rank": 1252,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 503,
+     "palavra": "opaque",
+     "rank": 18991,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 504,
+     "palavra": "parachute",
+     "rank": 29554,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 505,
+     "palavra": "brace",
+     "rank": 6207,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 506,
+     "palavra": "homework",
+     "rank": 8059,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 507,
+     "palavra": "scrub",
+     "rank": 324,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 508,
+     "palavra": "appeal",
+     "rank": 2505,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 509,
+     "palavra": "spend",
+     "rank": 8581,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 510,
+     "palavra": "wipe",
+     "rank": 257,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 511,
+     "palavra": "starve",
+     "rank": 6559,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 512,
+     "palavra": "handkerchief",
+     "rank": 1080,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 513,
+     "palavra": "park",
+     "rank": 4516,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 514,
+     "palavra": "reggae",
+     "rank": 40394,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 515,
+     "palavra": "floor",
+     "rank": 1705,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 516,
+     "palavra": "absorb",
+     "rank": 5358,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 517,
+     "palavra": "hand",
+     "rank": 249,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 518,
+     "palavra": "finger",
+     "rank": 725,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 519,
+     "palavra": "smooth",
+     "rank": 6605,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 520,
+     "palavra": "vinegar",
+     "rank": 562,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 521,
+     "palavra": "saliva",
+     "rank": 8544,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 522,
+     "palavra": "craftsman",
+     "rank": 2524,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 523,
+     "palavra": "dig",
+     "rank": 1647,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 524,
+     "palavra": "alley",
+     "rank": 31640,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 525,
+     "palavra": "splash",
+     "rank": 3030,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 526,
+     "palavra": "margarita",
+     "rank": 4427,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 527,
+     "palavra": "product",
+     "rank": 676,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 528,
+     "palavra": "produce",
+     "rank": 2679,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 529,
+     "palavra": "pile",
+     "rank": 1158,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 530,
+     "palavra": "luggage",
+     "rank": 432,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 531,
+     "palavra": "blouse",
+     "rank": 8478,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 532,
+     "palavra": "lodging",
+     "rank": 5418,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 533,
+     "palavra": "picture",
+     "rank": 2599,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 534,
+     "palavra": "fruit",
+     "rank": 762,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 535,
+     "palavra": "merchant",
+     "rank": 7657,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 536,
+     "palavra": "textbook",
+     "rank": 12646,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 537,
+     "palavra": "bracelet",
+     "rank": 3022,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 538,
+     "palavra": "doll",
+     "rank": 2226,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 539,
+     "palavra": "tip",
+     "rank": 392,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 540,
+     "palavra": "cement",
+     "rank": 4891,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 541,
+     "palavra": "get",
+     "rank": 5756,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 542,
+     "palavra": "sugar",
+     "rank": 1143,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 543,
+     "palavra": "craft",
+     "rank": 333,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 544,
+     "palavra": "cabin",
+     "rank": 4243,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 545,
+     "palavra": "rub",
+     "rank": 1262,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 546,
+     "palavra": "float",
+     "rank": 4852,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 547,
+     "palavra": "blame",
+     "rank": 33473,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 548,
+     "palavra": "puppy",
+     "rank": 9664,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 549,
+     "palavra": "spider",
+     "rank": 14200,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 550,
+     "palavra": "strap",
+     "rank": 1131,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 551,
+     "palavra": "desktop",
+     "rank": 6055,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 552,
+     "palavra": "bend",
+     "rank": 1358,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 553,
+     "palavra": "branch",
+     "rank": 14988,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 554,
+     "palavra": "pop",
+     "rank": 7470,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 555,
+     "palavra": "hide",
+     "rank": 3213,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 556,
+     "palavra": "smoke",
+     "rank": 3853,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 557,
+     "palavra": "neglect",
+     "rank": 7039,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 558,
+     "palavra": "handcuff",
+     "rank": 1868,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 559,
+     "palavra": "cotton",
+     "rank": 1764,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 560,
+     "palavra": "boot",
+     "rank": 18457,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 561,
+     "palavra": "slip",
+     "rank": 3867,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 562,
+     "palavra": "copper",
+     "rank": 705,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 563,
+     "palavra": "cartoon",
+     "rank": 9559,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 564,
+     "palavra": "galley",
+     "rank": 440,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 565,
+     "palavra": "crude",
+     "rank": 14044,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 566,
+     "palavra": "illumination",
+     "rank": 5367,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 567,
+     "palavra": "textile",
+     "rank": 467,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 568,
+     "palavra": "metabolism",
+     "rank": 22598,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 569,
+     "palavra": "knitting",
+     "rank": 805,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 570,
+     "palavra": "munition",
+     "rank": 22860,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 571,
+     "palavra": "picnic",
+     "rank": 135,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 572,
+     "palavra": "edge",
+     "rank": 897,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 573,
+     "palavra": "mischief",
+     "rank": 13161,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 574,
+     "palavra": "throat",
+     "rank": 7718,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 575,
+     "palavra": "strawberry",
+     "rank": 2167,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 576,
+     "palavra": "ship",
+     "rank": 1639,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 577,
+     "palavra": "customer",
+     "rank": 6779,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 578,
+     "palavra": "statue",
+     "rank": 6486,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 579,
+     "palavra": "briefcase",
+     "rank": 2362,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 580,
+     "palavra": "rabbit",
+     "rank": 8588,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 581,
+     "palavra": "greasy",
+     "rank": 728,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 582,
+     "palavra": "tackle",
+     "rank": 4047,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 583,
+     "palavra": "cool",
+     "rank": 2143,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 584,
+     "palavra": "blend",
+     "rank": 795,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 585,
+     "palavra": "comfort",
+     "rank": 2217,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 586,
+     "palavra": "combine",
+     "rank": 905,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 587,
+     "palavra": "market",
+     "rank": 5954,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 588,
+     "palavra": "cinnamon",
+     "rank": 2352,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 589,
+     "palavra": "merge",
+     "rank": 32625,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 590,
+     "palavra": "stabbing",
+     "rank": 5241,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 591,
+     "palavra": "tumble",
+     "rank": 1869,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 592,
+     "palavra": "farm",
+     "rank": 4592,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 593,
+     "palavra": "palette",
+     "rank": 867,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 594,
+     "palavra": "valet",
+     "rank": 1645,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 595,
+     "palavra": "charcoal",
+     "rank": 400,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 596,
+     "palavra": "alcohol",
+     "rank": 3704,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 597,
+     "palavra": "marijuana",
+     "rank": 20106,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 598,
+     "palavra": "honey",
+     "rank": 2072,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 599,
+     "palavra": "cushion",
+     "rank": 889,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 600,
+     "palavra": "edible",
+     "rank": 1024,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 601,
+     "palavra": "intricate",
+     "rank": 5923,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 602,
+     "palavra": "stain",
+     "rank": 445,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 603,
+     "palavra": "measure",
+     "rank": 112,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 604,
+     "palavra": "drill",
+     "rank": 1523,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 605,
+     "palavra": "impress",
+     "rank": 3612,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 606,
+     "palavra": "carrier",
+     "rank": 3706,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 607,
+     "palavra": "catering",
+     "rank": 359,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 608,
+     "palavra": "tangle",
+     "rank": 8945,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 609,
+     "palavra": "broker",
+     "rank": 43910,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 610,
+     "palavra": "harness",
+     "rank": 8605,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 611,
+     "palavra": "groom",
+     "rank": 865,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 612,
+     "palavra": "fear",
+     "rank": 17607,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 613,
+     "palavra": "humble",
+     "rank": 9604,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 614,
+     "palavra": "migrate",
+     "rank": 17974,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 615,
+     "palavra": "kitty",
+     "rank": 4660,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 616,
+     "palavra": "rocker",
+     "rank": 18001,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 617,
+     "palavra": "spite",
+     "rank": 27151,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 618,
+     "palavra": "payroll",
+     "rank": 54213,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 619,
+     "palavra": "launch",
+     "rank": 4713,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 620,
+     "palavra": "dominate",
+     "rank": 36451,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 621,
+     "palavra": "magic",
+     "rank": 3985,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 622,
+     "palavra": "gaze",
+     "rank": 10105,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 623,
+     "palavra": "adjust",
+     "rank": 2709,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 624,
+     "palavra": "lobby",
+     "rank": 9355,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 625,
+     "palavra": "lay",
+     "rank": 2771,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 626,
+     "palavra": "donkey",
+     "rank": 43296,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 627,
+     "palavra": "sesame",
+     "rank": 3346,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 628,
+     "palavra": "put",
+     "rank": 903,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 629,
+     "palavra": "spread",
+     "rank": 2285,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 630,
+     "palavra": "dose",
+     "rank": 7063,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 631,
+     "palavra": "hard",
+     "rank": 2188,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 632,
+     "palavra": "cosmetic",
+     "rank": 1369,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 633,
+     "palavra": "sort",
+     "rank": 1124,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 634,
+     "palavra": "chimney",
+     "rank": 1844,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 635,
+     "palavra": "fiber",
+     "rank": 1941,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 636,
+     "palavra": "grow",
+     "rank": 5131,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 637,
+     "palavra": "hair",
+     "rank": 5471,
+     "estrategia": "consistencia"
+    }
+   ],
+   "invalidos": 2,
+   "repetidos": 0,
+   "resolvido": false,
+   "palavra": null
+  },
+  {
+   "id": "2026-10-05",
+   "inicio": "2026-10-05T09:53:08",
+   "chutes": [
+    {
+     "n": 1,
+     "palavra": "object",
+     "rank": 3042,
+     "estrategia": "tema"
+    },
+    {
+     "n": 2,
+     "palavra": "place",
+     "rank": 664,
+     "estrategia": "tema"
+    },
+    {
+     "n": 3,
+     "palavra": "person",
+     "rank": 897,
+     "estrategia": "tema"
+    },
+    {
+     "n": 4,
+     "palavra": "animal",
+     "rank": 1370,
+     "estrategia": "tema"
+    },
+    {
+     "n": 5,
+     "palavra": "emotion",
+     "rank": 3911,
+     "estrategia": "tema"
+    },
+    {
+     "n": 6,
+     "palavra": "food",
+     "rank": 1498,
+     "estrategia": "tema"
+    },
+    {
+     "n": 7,
+     "palavra": "vehicle",
+     "rank": 5256,
+     "estrategia": "tema"
+    },
+    {
+     "n": 8,
+     "palavra": "technology",
+     "rank": 7577,
+     "estrategia": "tema"
+    },
+    {
+     "n": 9,
+     "palavra": "family",
+     "rank": 1394,
+     "estrategia": "tema"
+    },
+    {
+     "n": 10,
+     "palavra": "music",
+     "rank": 1340,
+     "estrategia": "tema"
+    },
+    {
+     "n": 11,
+     "palavra": "clothes",
+     "rank": 10,
+     "estrategia": "tema"
+    },
+    {
+     "n": 12,
+     "palavra": "plant",
+     "rank": 3935,
+     "estrategia": "tema"
+    },
+    {
+     "n": 13,
+     "palavra": "profession",
+     "rank": 3963,
+     "estrategia": "tema"
+    },
+    {
+     "n": 14,
+     "palavra": "color",
+     "rank": 156,
+     "estrategia": "tema"
+    },
+    {
+     "n": 15,
+     "palavra": "water",
+     "rank": 2119,
+     "estrategia": "tema"
+    },
+    {
+     "n": 16,
+     "palavra": "house",
+     "rank": 638,
+     "estrategia": "tema"
+    },
+    {
+     "n": 17,
+     "palavra": "money",
+     "rank": 1380,
+     "estrategia": "tema"
+    },
+    {
+     "n": 18,
+     "palavra": "road",
+     "rank": 3798,
+     "estrategia": "tema"
+    },
+    {
+     "n": 19,
+     "palavra": "machine",
+     "rank": 2429,
+     "estrategia": "tema"
+    },
+    {
+     "n": 20,
+     "palavra": "shoe",
+     "rank": 27,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 21,
+     "palavra": "sneaker",
+     "rank": 185,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 22,
+     "palavra": "towel",
+     "rank": 1428,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 23,
+     "palavra": "sock",
+     "rank": 194,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 24,
+     "palavra": "short",
+     "rank": 32,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 25,
+     "palavra": "outfit",
+     "rank": 6,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 26,
+     "palavra": "pajama",
+     "rank": 160,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 27,
+     "palavra": "drastically",
+     "rank": 5287,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 28,
+     "palavra": "size",
+     "rank": 96,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 29,
+     "palavra": "setup",
+     "rank": 6366,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 30,
+     "palavra": "attire",
+     "rank": 7,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 31,
+     "palavra": "skin",
+     "rank": 1134,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 32,
+     "palavra": "underwear",
+     "rank": 103,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 33,
+     "palavra": "puzzle",
+     "rank": 3426,
+     "estrategia": "consistencia"
+    },
+    {
+     "n": 34,
+     "palavra": "dress",
+     "rank": 1,
+     "estrategia": "consistencia"
+    }
+   ],
+   "invalidos": 0,
+   "repetidos": 0,
+   "resolvido": true,
+   "palavra": "dress"
   }
  ]
 }
